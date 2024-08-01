@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 250px;
+    height: 380px;
+    text-align: center;
+    background-color: antiquewhite;
+    transition: all 0.6s;
+    margin: 10px;
+}
+.basliq{
+    font-size: 20px;
+    font-family: arial;
+    height: 35px;
+    background-color: lightblue;
+    padding: 20px 10px;
+}
+.container h2{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.438);
+}
+.container p{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.438);
+}
+.button button{
+    background-color: rgb(38, 38, 216);
+    color: aliceblue;
+    font-size: 25px;
+}
+.box:hover{
+    transform: scale(1.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
